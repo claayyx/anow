@@ -1,0 +1,17 @@
+@mixin btn{
+  padding: 17px 58px;
+  background: #FD8558;
+  font-weight: 700;
+  font-size: 15px;
+  color: #FFFFFF;
+  transition: .6s;
+  &:hover{
+    background: none;
+    border: 2px solid #FD8558;
+    color: brown;
+    transition: .6s;
+  }
+}
+
+
+
